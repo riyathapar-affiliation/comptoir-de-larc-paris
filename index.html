@@ -5,12 +5,71 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Comptoir de l'Arc — Brasserie Parisienne</title>
 <meta name="description" content="Comptoir de l'Arc — une brasserie parisienne authentique près de l'Arc de Triomphe. Cuisine traditionnelle française, vins et accueil chaleureux depuis 1962." />
+<meta name="keywords" content="brasserie Paris, restaurant 16e arrondissement, cuisine française, steak frites, huîtres, Paris 16" />
+<meta property="og:title" content="Comptoir de l'Arc — Brasserie Parisienne" />
+<meta property="og:description" content="Une brasserie parisienne authentique. Cuisine traditionnelle, vins, accueil chaleureux." />
+<meta property="og:image" content="images/hero-bg.jpeg" />
+<meta property="og:url" content="https://website1comptoir.netlify.app" />
+<!-- Google Tag Manager -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3WDDCF2SL3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-3WDDCF2SL3');
+</script>
+<!-- End Google Tag Manager -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Cormorant+Garamond:wght@400;500;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+<!-- Restaurant Schema Markup for SEO -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Restaurant",
+  "name": "Comptoir de l'Arc",
+  "image": "https://website1comptoir.netlify.app/images/hero-bg.jpeg",
+  "description": "Une brasserie parisienne authentique avec cuisine traditionnelle française, vins et accueil chaleureux depuis 1962.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "73 Av. Marceau",
+    "addressLocality": "Paris",
+    "postalCode": "75116",
+    "addressCountry": "FR"
+  },
+  "telephone": "+33147207204",
+  "email": "contact@comptoirdelarc.fr",
+  "url": "https://website1comptoir.netlify.app",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "07:00",
+      "closes": "01:00"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Saturday", "Sunday"],
+      "opens": "00:00",
+      "closes": "00:00"
+    }
+  ],
+  "priceRange": "€€",
+  "cuisine": "French",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5",
+    "bestRating": "5",
+    "worstRating": "1",
+    "ratingCount": "5"
+  }
+}
+</script>
+<!-- End Schema Markup -->
 
 <div class="reveal-curtain" aria-hidden="true"></div>
 

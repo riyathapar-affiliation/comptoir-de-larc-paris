@@ -220,10 +220,11 @@ section { padding: 110px 24px; }
 /* ---------- Gallery ---------- */
 .gallery-section { max-width: 1200px; margin: 0 auto 60px; }
 .gallery-section-title { font-family: var(--serif); font-size: 1.8rem; color: var(--cream); margin-bottom: 28px; margin-top: 0; text-align: center; letter-spacing: 0.05em; }
-.gallery-grid-small, .gallery-grid-large {
+.gallery-grid-small, .gallery-grid-large, .gallery-grid-plats {
   max-width: 1200px; margin: 0 auto; display: grid; gap: 14px;
 }
 .gallery-grid-small { grid-template-columns: repeat(2, 1fr); }
+.gallery-grid-plats { grid-template-columns: repeat(4, 1fr); }
 .gallery-grid-large { grid-template-columns: repeat(2, 1fr); }
 
 .gallery-grid {

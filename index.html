@@ -104,8 +104,8 @@
       <h1>Comptoir <span>de l'Arc</span></h1>
       <p class="hero-tagline">Une brasserie parisienne authentique, à deux pas de l'Arc de Triomphe — steak frites, huîtres et banquettes en velours bordeaux depuis 1962.</p>
       <div class="hero-actions">
-        <a href="#menu" class="btn btn-primary">Voir la Carte</a>
-        <a href="#reviews" class="btn btn-ghost">Nos Avis</a>
+        <a href="tel:+33147207204" class="btn btn-primary">📞 Appeler Maintenant</a>
+        <a href="#menu" class="btn btn-ghost">Voir la Carte</a>
       </div>
     </div>
     <a href="#about" class="scroll-cue" aria-label="Faire défiler vers le contenu"><span></span></a>
@@ -237,28 +237,48 @@
 
   <section class="gallery" id="gallery">
     <div class="section-head reveal">
-      <p class="eyebrow">Coup d'œil</p>
+      <p class="eyebrow">Découvrez Notre Univers</p>
       <h2>Galerie</h2>
+      <p class="section-sub">Nos plats, nos desserts, et l'ambiance unique du Comptoir de l'Arc</p>
     </div>
-    <div class="gallery-grid reveal">
-      <button class="gallery-item span-2" data-full="images/gallery-1.jpeg">
-        <img src="images/gallery-1.jpeg" alt="Salle avec tables en cuivre et marbre" loading="lazy">
-      </button>
-      <button class="gallery-item" data-full="images/gallery-2.jpeg">
-        <img src="images/gallery-2.jpeg" alt="Plat de la maison" loading="lazy">
-      </button>
-      <button class="gallery-item" data-full="images/gallery-3.jpeg">
-        <img src="images/gallery-3.jpeg" alt="Présentation des mets" loading="lazy">
-      </button>
-      <button class="gallery-item" data-full="images/gallery-4.jpeg">
-        <img src="images/gallery-4.jpeg" alt="Ambiance de la brasserie" loading="lazy">
-      </button>
-      <button class="gallery-item span-2" data-full="images/gallery-5.jpeg">
-        <img src="images/gallery-5.jpeg" alt="Décoration intérieure élégante" loading="lazy">
-      </button>
-      <button class="gallery-item" data-full="images/gallery-6.jpeg">
-        <img src="images/gallery-6.jpeg" alt="Détail de la salle" loading="lazy">
-      </button>
+
+    <!-- Nos Plats Section -->
+    <div class="gallery-section reveal">
+      <h3 class="gallery-section-title">Nos Plats</h3>
+      <div class="gallery-grid-small">
+        <button class="gallery-item" data-full="images/gallery-2.jpeg">
+          <img src="images/gallery-2.jpeg" alt="Plat signature du Comptoir" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="images/gallery-3.jpeg">
+          <img src="images/gallery-3.jpeg" alt="Présentation gastronomique" loading="lazy">
+        </button>
+      </div>
+    </div>
+
+    <!-- Nos Desserts Section -->
+    <div class="gallery-section reveal">
+      <h3 class="gallery-section-title">Nos Desserts</h3>
+      <div class="gallery-grid-small">
+        <button class="gallery-item" data-full="images/gallery-4.jpeg">
+          <img src="images/gallery-4.jpeg" alt="Dessert maison" loading="lazy">
+        </button>
+        <button class="gallery-item" data-full="images/gallery-6.jpeg">
+          <img src="images/gallery-6.jpeg" alt="Pâtisserie fine" loading="lazy">
+        </button>
+      </div>
+    </div>
+
+    <!-- Vibes Section -->
+    <div class="gallery-section reveal">
+      <h3 class="gallery-section-title">L'Ambiance</h3>
+      <div class="gallery-grid-large">
+        <button class="gallery-item span-2" data-full="images/gallery-1.jpeg">
+          <img src="images/gallery-1.jpeg" alt="Intérieur élégant du Comptoir de l'Arc" loading="lazy">
+        </button>
+        <button class="gallery-item span-2" data-full="images/gallery-5.jpeg">
+          <img src="images/gallery-5.jpeg" alt="L'ambiance chaleureuse de la brasserie" loading="lazy">
+        </button>
+      </div>
     </div>
   </section>
 
@@ -280,12 +300,15 @@
         </address>
       </div>
       <div class="hours-map reveal">
-        <iframe
-          title="Plan d'accès au Comptoir de l'Arc"
-          src="https://www.openstreetmap.org/export/embed.html?bbox=2.2800%2C48.8680%2C2.2990%2C48.8750&layer=mapnik&marker=48.8715%2C2.2895"
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
+        <div class="map-container">
+          <iframe
+            title="Plan d'accès au Comptoir de l'Arc - 73 Av. Marceau, 75116 Paris"
+            src="https://www.openstreetmap.org/export/embed.html?bbox=2.2850%2C48.8695%2C2.2940%2C48.8735&layer=mapnik&marker=48.8715%2C2.2895"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <a href="https://www.google.com/maps/dir/?api=1&destination=73+Avenue+de+Wagram,+75116+Paris,France" target="_blank" class="btn btn-primary" style="margin-top: 12px; display: block; text-align: center;">📍 Voir l'Itinéraire</a>
+        </div>
       </div>
     </div>
   </section>
